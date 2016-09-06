@@ -1,0 +1,241 @@
+/*banner*/
+#banner{
+	width:100%;
+	height:610px;
+	padding:20px 0;
+}
+#banner-box{
+	width:1200px;
+	margin:0 auto;
+	height:610px;
+}
+/*分享、返现、邀请*/
+#shar{
+	width:100%;
+	height:106px;
+}
+#shar-box{
+	width:1200px;
+	height:106px;
+	margin:0 auto;
+	overflow: hidden;
+}
+.fenxiang{
+	display:block;
+	float:left;
+	margin-top:10px;
+	width:250px;
+	height:86px;
+	background:url(../img/shortcut3.jpg) no-repeat;
+	margin-left:50px;
+}
+.xinpin{
+	display:block;
+	float:left;
+	margin-top:10px;
+	width:250px;
+	height:86px;
+	background:url(../img/shortcut3.jpg) no-repeat -250px;
+	margin-left:50px;
+}
+.lipin{
+	display:block;
+	float:left;
+	margin-top:10px;
+	width:250px;
+	height:86px;
+	background:url(../img/shortcut3.jpg) no-repeat -500px;
+	margin-left:50px;
+}
+.yaoqing{
+	display:block;
+	float:left;
+	margin-top:10px;
+	width:250px;
+	height:86px;
+	background:url(../img/shortcut3.jpg) no-repeat -740px;
+	margin-left:50px;
+}
+/*尖货推荐*/
+#tuij{
+	width:100%;
+	height:60px;
+}
+#tuij-box{
+	width:301px;
+	height:40px;
+	margin:0 auto;
+}
+
+#tj-goods{
+	width:100%;
+	height:1240px;	
+}
+#tj-g-box{
+	width:1200px;
+	height:1240px;
+	margin: 0 auto;
+}
+.tj-g-box1{
+	width:1200px;
+	height:600px;
+	margin-bottom:40px;
+}
+.tj-g-box1 li{
+	width:400px;
+	height:300px;
+	float:left;
+}
+.tj-g-box2{
+	width:1200px;
+	height:600px;
+	background:blue;
+}
+.tj-g-box2 li{
+	width:400px;
+	height:300px;
+	float:left;
+}
+/*热题推荐*/
+#rtui{
+	width:100%;
+	height:60px;
+	padding-top:40px;
+}
+#rtui-box{
+	width:301px;
+	height:40px;
+	margin:0 auto;
+}
+#rt-goods{
+	width:100%;
+	height:1020px;
+	
+}
+
+#rt-g-box{
+	width:1200px;
+	height:1020px;
+	margin:0 auto;
+	
+}
+#rt-g-box li{
+	position: relative;
+	width:600px;
+	height:300px;
+	margin-bottom:40px;
+	float:left;
+	
+}
+#rt-g-box li a img{
+	position: absolute;
+	z-index: 1;
+}
+#rt-g-box li p img{
+	position: absolute;
+	z-index: 2;
+	left:50%;
+	top:50%;
+	margin-top:-45px;
+	margin-left:-185px;
+}
+/*更多专题*/
+#more-zt{
+	width:100%;
+	height:55px;
+	padding-top:20px;
+}
+#more-zt-box{
+	width:158px;
+	height:35px;
+	margin:0 auto;
+}
+/*精选专题*/
+#hot-tj{
+	width:100%;
+	height:60px;
+	padding-bottom:20px;
+}
+#hot-tj-box{
+	width:301px;
+	height:40px;
+	margin:0 auto;
+}
+#hot-goods{
+	width:100%;
+	height:1320px;
+}
+#hot-g-box{
+	width:1200px;
+	height:1320px;
+	margin:0 auto;
+}
+#hot-g-box li{
+	position:relative;
+	width:400px;
+	height:300px;
+	margin-bottom:40px;
+	float:left;
+}
+#hot-g-box li a{
+	position: absolute;
+	z-index: 1;
+}
+#hot-g-box p a{
+	position: absolute;
+	z-index: 2;
+	left:0;
+	bottom:20px;
+}
+/*更多卖场*/
+#msld{
+	width:100%;
+	height:440px;
+	padding-top:40px;
+}
+#msld-box{
+	width:1200px;
+	height:400px;
+    margin:0 auto;
+}
+/*发现好货*/
+#found{
+	width:100%;
+	height:60px;
+	padding-bottom:20px;
+}
+#found-box{
+	width:301px;
+	height:40px;
+	margin:0 auto;
+}
+#found-goods{
+	width:100%;
+	height:2020px;
+	
+}
+#found-g-box{
+	width:1200px;
+	height:2020px;
+	
+	margin:0 auto;
+}
+#found-g-box li{
+	width:292.5px;
+	height:494px;
+	float:left;
+	border:1px solid #efefef;
+	
+	margin:2px;
+	padding-left:1.5px;
+}
+#found-g-box li img{
+	/*滑过变色#d3d1d2*/
+	border:2px solid #fff;
+}
+#found-g-box .have-m{
+	margin:8px 2px;
+}
+
+
+
