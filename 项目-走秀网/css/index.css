@@ -15,6 +15,7 @@
 	height:106px;
 }
 #shar-box{
+	position:relative;
 	width:1200px;
 	height:106px;
 	margin:0 auto;
@@ -22,40 +23,41 @@
 }
 .fenxiang{
 	display:block;
-	float:left;
-	margin-top:10px;
+	position:absolute;
+	top:10px;
 	width:250px;
 	height:86px;
 	background:url(../img/shortcut3.jpg) no-repeat;
-	margin-left:50px;
+	left:60px;
 }
 .xinpin{
 	display:block;
-	float:left;
-	margin-top:10px;
+	position:absolute;
+	top:10px;
 	width:250px;
 	height:86px;
 	background:url(../img/shortcut3.jpg) no-repeat -250px;
-	margin-left:50px;
+	left:390px;
 }
 .lipin{
 	display:block;
-	float:left;
-	margin-top:10px;
+	position:absolute;
+	top:10px;
 	width:250px;
 	height:86px;
 	background:url(../img/shortcut3.jpg) no-repeat -500px;
-	margin-left:50px;
+	left:710px;
 }
 .yaoqing{
 	display:block;
-	float:left;
-	margin-top:10px;
+	position:absolute;
+	top:10px;
 	width:250px;
 	height:86px;
 	background:url(../img/shortcut3.jpg) no-repeat -740px;
-	margin-left:50px;
+	left:1000px;
 }
+
 /*尖货推荐*/
 #tuij{
 	width:100%;
@@ -89,7 +91,6 @@
 .tj-g-box2{
 	width:1200px;
 	height:600px;
-	background:blue;
 }
 .tj-g-box2 li{
 	width:400px;
@@ -125,7 +126,7 @@
 	height:300px;
 	margin-bottom:40px;
 	float:left;
-	
+	overflow: hidden;
 }
 #rt-g-box li a img{
 	position: absolute;
@@ -176,12 +177,13 @@
 	height:300px;
 	margin-bottom:40px;
 	float:left;
+	overflow: hidden;
 }
-#hot-g-box li a{
+#hot-g-box li a img{
 	position: absolute;
 	z-index: 1;
 }
-#hot-g-box p a{
+#hot-g-box p img{
 	position: absolute;
 	z-index: 2;
 	left:0;
