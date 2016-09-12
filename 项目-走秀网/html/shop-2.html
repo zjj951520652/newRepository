@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>个人信息</title>
+		<link rel="stylesheet" href="../css/shop-2.css" />
+		<script type="text/javascript" src="../js/jquery-1.12.4.js" ></script>
+		<script type="text/javascript" src="../js/shop-2.js" ></script>
+	</head>
+	<body>
+		<div id="container">
+		<!--head-->
+	<div id="shop-head">
+		<div id="shop-head-box">
+			<div id="logo">
+			</div>
+			<div id="head-r">
+				<p><span>客服热线(免长途费):</span><b>400-888-4499</b><a href="#">在线客服</a></p>
+				<p><span>您好！xiu0100...！</span><a id="login" href="#">[退出]</a>|<a>帮助中心</a></p>
+			</div>
+		</div>
+	</div>
+    
+    <!--流程-->
+    <div id="flow">
+    	<div id="flow-box">
+    		<ul>
+    			<li>1.我的购物袋<span class="shop1"></span></li>
+    			<li class="xuanz">2.填写并核对订单信息<span class="shop2"></span></li>
+    			<li>3.成功提交订单</li>
+    		</ul>
+    	</div>
+    </div>
+    	
+	<!--主体-->
+	<div id="main-d">
+		<div id="main-d-box">
+			<div id="m-head">
+				填写并核对订单信息
+			</div>
+			<h2 id="mess-s">收货人信息</h2>
+			<!--表单信息-->
+			<div id="peop-mes">
+				<form>
+					<p class="p1">收货人姓名:<input type="text" valie=""/></p>
+					<p class="p2">省份/直辖市:
+					<select>
+						<option>省</option>
+						<option>北京</option>
+						<option>上海</option>
+						<option>四川</option>
+						<option>浙江</option>
+						<option>江苏</option>
+						<option>广东</option>
+						<option>福建</option>
+					</select> 
+					<select>
+						<option>市</option>
+						<option>北京</option>
+						<option>商丘</option>
+						<option>新乡</option>
+						<option>郑州</option>
+						<option>洛阳</option>
+						<option>开封</option>
+						<option>南阳</option>
+					</select> 
+					<select>
+						<option>县</option>
+						<option>三里屯</option>
+						<option>七里河</option>
+						<option>十七里河</option>
+						<option>八里沟</option>
+						<option>九里沟</option>
+						<option>张楼</option>
+						<option>...</option>
+					</select> 
+					</p>
+					<p class="p3">详细地址:<input type="text" value=""/><span>详细地址不能包含特殊字符！</span></p>
+					<p class="p4">邮政编码:<input type="text" value=""/></p>
+					<p class="p5">手机号码:<input type="text" value=""/></p>
+					<p class="p6"><input type="checkbox" name="ral"/>设为默认</p>
+					<p class="p7">注:如果收货人并非您本人，您可<a>点此添加订货人联系信息。</a></p>
+					<p class="p8">订货人姓名:<input type="text" value=""/>订货人联系电话:<input type="text" value=""/></p>
+					<a class="sure">确认收货人信息</a>
+				</form>
+			</div>
+			
+			<!--配送信息-->
+			<h2 id="psxx">配送信息<a>[返回]</a></h2>
+				<div id="ps-mes">
+				   	<table>
+				   		<tr>
+				   			<td>配送方式</td>
+				   			<td>配送时间</td>
+				   			<td></td>
+				   		</tr>
+				   		<tr>
+				   			<td><input type="radio" name="ral0" checked="checked"/>快递，全场满199包邮</td>
+				   			<td><input type="radio" name="ral" checked="checked"/>工作日，双休日与假日均可</td>
+				   			<td><input type="radio" name="ral"/>工作日(双休日假日不送)</td>
+				   		</tr>
+				   		<tr>
+				   			<td></td>
+				   			<td><input type="radio" name="ral"/>只工作日(双休日假日不送)</td>
+				   			<td><input type="radio" name="ral"/>白天没人尽量安排晚上送货</td>
+				   		</tr>
+				   	</table>
+				   	<a>确认配送信息</a>
+				</div>
+		    <h2 id="psxx">支付方式</h2>
+			<div id="zf-style">
+				<p class="p1">你也可以同时:</p>
+				<p class="p2"><input type="checkbox"name="sdfd"/>使用礼品卡冲抵金额</p>
+				<p class="p3"><input type="radio" name="rall"/><span>在线支付</span>  即时到帐，支持绝大部分银行借记卡、信用卡和支付平台 </p>
+				<p class="p3"><input type="radio" name="rall"/><span>银行汇款</span>  您需提交订单后再到银行把货款汇入走秀账户，汇款成功后请联系客服告知汇款信息以便及时为您备货，到账后将为您发货，到账时间1-5个工作日！</p>
+				<p class="p3"><input type="radio" name="rall"/><span>货到付款</span>  先送货再收款，请您在快递人员送货时付款</p>
+				<a class="sure1">确认支付方式</a>
+			</div>
+			<h2 id="psxx">商品清单<a>[修改]</a></h2>
+			<div id="psxx-box">
+				<div>
+					<table>
+						<tr>
+							<th class="th1">商品</th>
+							<th class="th2">走秀价</th>
+							<th class="th3">购买价</th>
+							<th class="th4">数量</th>
+							<th class="th5">小计</th>
+						</tr>
+						<tr>
+							<td>
+								<img src="../img4/g1_50_50.jpg"/>
+								<div class="img-rr">
+								<p>Franceach</p>
+								<a>女士黑色真丝中长款大摆无袖A字连衣裙</a>
+								<p>颜色 : 黑色 尺码 : S</p>
+								</div>
+							</td>
+							<td>￥598</td>
+							<td>￥598</td>
+							<td>1</td>
+							<td>￥598</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+			
+			<div id="tjdd">
+				<p>商品总价:￥598</p>
+				<p>运费:￥0</p>
+				<p>订单应付金额:￥598</p>
+				<p><a></a></p>
+			</div>
+						
+			
+		</div>
+	</div>
+			
+			
+			
+			
+		 <!--版权-->
+    <div id="copy">
+ 		<p id="copy-box">Copyright&copy;2008-2016<a href="#">Xiu.com</a>深证走秀网络科技有限公司 版权所有粤ICP备07502993号</p>
+ 	</div>
+    	
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+		</div>
+	</body>
+</html>

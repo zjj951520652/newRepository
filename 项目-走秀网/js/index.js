@@ -78,7 +78,14 @@ $(function(){
 		$(this).css({"border-color":"#fff"});
 		$(this).css({"border-bottom":"2px solid #fff"});
 	})
-	
+	aTabListBox.hover(function(){
+		
+		$(this).css({"display":"block"});
+	},function(){
+		
+		$(this).css({"display":"none"});
+		
+	})
 })
 
 /*分享、返现、邀请*/
@@ -173,9 +180,41 @@ $(function(){
 })
 
 
+$(function(){
+	var oSearch=$("#search a");
+	//console.log(oSearch);
+	oSearch.eq(0).on("click",function(){
+		$(this).attr("href","good_list.html");
+	})
+})
 
-
-
+$(function(){
+	
+		if($.cookie("username")){
+		$(".login").css({"display":"none"});
+		$(".logined").css({"display":"block"});
+		$(".logined").html("您好"+$.cookie("username")+"<a class='quit' href='#'>[退出]</a>");
+		$(".quit").click(function(){
+		$(".login").css({"display":"block"});
+		$(".logined").css({"display":"none"});
+	})
+	}else{
+		
+		if($.cookie("username2")){
+		$(".login").css({"display":"none"});
+		$(".logined").css({"display":"block"});
+		$(".logined").html("您好,"+$.cookie("username2")+"<a class='quit' href='#'>[退出]</a>");
+	}
+	$(".quit").click(function(){
+		$(".login").css({"display":"block"});
+		$(".logined").css({"display":"none"});
+	})
+	}
+	
+	
+	
+	
+})
 
 
 

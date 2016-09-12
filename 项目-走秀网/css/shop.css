@@ -1,0 +1,532 @@
+/*重置样式表*/
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img { margin:0; padding:0; }
+fieldset, img { border:none;}
+img{display: block;}
+address, caption, cite, code, dfn, th, var{ font-style:normal; font-weight:normal;}
+ul, ol { list-style:none; }
+body { color:#333; font:16px/24px "SimSun","宋体","Arial Narrow",HELVETICA; background:#fff;/* overflow-y:scroll;*/ overflow-x:hidden;}
+a { color:#666; text-decoration:none;}
+a:visited { color:#666;}
+a:hover, a:active, a:focus { color:#ff8400;}
+li,dt{overflow: hidden;}
+.bgred{background-color: red;}
+.bgblue{background-color: blue;}
+.container{width: 1100px;margin:0 auto;}
+/*head*/
+#shop-head{
+	width:100%;
+	height:65px;
+	overflow: hidden;
+	padding-top:12px;
+}
+#shop-head-box{
+	width:938px;
+	height:64px;
+	border-bottom:1px solid #000;
+	margin:0 auto;
+	padding-left:12px;
+}
+#logo{
+	width:195px;
+	height:59px;
+	float: left;
+	background: url(../img4/s_05.png) no-repeat 0 0;
+}
+#head-r{
+	width:600px;
+	height:55px;
+	float:right;
+}
+#head-r p{
+	margin-left:300px;
+	line-height: 30px;
+}
+#head-r span{
+	font-size: 12px;
+	color:#151515;
+	margin:0 2px;
+}
+#head-r b{
+	font-size: 16px;
+	color:#f26521;
+	margin:0 5px;
+	
+}
+#head-r a{
+	font-size: 12px;
+	color:#5b5b5b;
+}
+
+/*流程*/
+#flow{
+	width:100%;
+	height:40px;
+	padding-top:15px;
+}
+#flow-box{
+	width:950px;
+	height:40px;
+	margin: 0 auto;
+}
+#flow-box li{
+	width:316px;
+	height:24px;
+	float: left;
+	position: relative;
+	background:#F78407;
+	text-align: center;
+    line-height: 24px;
+    color:#5b5b5b;
+    font-size: 14px;
+    overflow: visible;
+    font-weight: 600;
+    background: #e2e2e2;;
+}
+#flow-box .xuanz{
+	color:#fff;
+	background:#82bf38;
+}
+#flow-box .shop1{
+	width:27px;
+	height:32px;
+	background:url(../img4/s_shop1.gif) 0 0 no-repeat;
+	position: absolute;
+	right: 0px;
+	top:-4px;
+    
+}
+#flow-box .shop2{
+	width:27px;
+	height:32px;
+	background:url(../img4/s_shop1.gif) -27px 0 no-repeat;
+	top:-4px;
+	position: absolute;
+	right:0;
+}
+
+/*主体*/
+#shop-main{
+	width:100%;
+	height:90px;
+	padding-top:20px;
+	display:block;
+}
+#shop-m-box{
+	width:948px;
+	height:90px;
+	border:1px solid #d6d3d3;
+	margin:0 auto;
+	background:#f6f6f6;
+}
+#shop-m-box img{
+    margin:15px 0 0 200px;
+    display: inline-block;
+    
+}
+#shop-m-box span{
+	font-size: 16px;
+	font-weight: 600;
+	color:#000;
+	line-height:10px;
+	position: relative;
+	top:-20px;
+}
+
+#shop-m-box a{
+	color:#ff6633;
+	text-decoration: underline;
+}
+
+/*收藏*/
+#coll{
+	width:100%;
+	height:64px;
+}
+#coll-box{
+	width:950px;
+	height:34px;
+	padding:20px 0 10px 0;
+	margin:0 auto;
+}
+#coll-box a{
+	width:170px;
+	height:28px;
+	display: inline-block;
+	text-align: right;
+	background:url(../img4/s_shop1.gif) no-repeat 0 -289px;
+}
+#coll-box span{
+	font-weight: 600;
+	color:#5b5b5b;
+	font-size:12px;
+	position: relative;
+	top:-8px;
+}
+/*购物车商品*/
+#shop-goods{
+	width:100%;
+	display: none;
+}
+#shop-g-box{
+	
+	width:950px;
+	margin:0 auto;
+}
+#shop-g-box table{
+	
+	width:948px;
+	height:142px;
+	border:1px solid #d6d3d3;
+	border-collapse: collapse;
+}
+#shop-g-box table th{
+	background:#e3e3e3;
+	height:33px;
+	font-size:12px;
+	color:#000;
+}
+#shop-g-box table .th1{
+	width:81px;
+}
+#shop-g-box table .th2{
+	width:358px;
+}
+#shop-g-box table .th3{
+	width:120px;
+}
+#shop-g-box table .th4{
+	width:130px;
+}
+#shop-g-box table .th5{
+	width:130px;
+}
+#shop-g-box table .th6{
+	width:130px;
+}
+#shop-g-box table td{
+    height:110px;
+    background:#fff4e8;	
+}
+#shop-g-box .img-l{
+	border:1px solid #dfdfdf;
+	float:left;
+}
+#shop-g-box .img-r{
+	font-size: 12px;
+	float:left;
+	margin-left:20px;
+}
+#shop-g-box .danj{
+	text-align: center;
+	font-size: 14px;
+	color:#000;
+}
+#shop-g-box .xiaoj{
+	text-align: center;
+	font-size: 14px;
+	color:#ff6633;
+	font-weight: 600;
+}
+#shop-g-box .shul{
+	padding-left:35px;
+}
+#shop-g-box .shul a{
+	font-size: 6px;
+	border:1px solid #666666;
+	padding:0px 3px;
+}
+#shop-g-box .shul input{
+	width:30px;
+	height:15px;
+	border:1px solid #dfdfdf;
+	margin:0 3px;
+	text-align: center;
+}
+#shop-g-box .caoz a{
+	text-align: center;
+	display: block;
+    font-size: 14px;
+    color:#5b5b5b;
+}
+#shop-g-box table th input{
+	vertical-align: middle;
+}
+
+/*结算*/
+#jies{
+	width:100%;
+	height:52px;
+	padding-top:5px;
+	padding-bottom:20px;
+}
+#jies-box{
+	width:948px;
+	height:50px;
+	border:1px solid #d8d7d7;
+	margin:0 auto;
+}
+#jies-box li{
+	float:left;
+}
+#jies-box .li1{
+	width:50px;
+	height:50px;
+	font-size: 12px;
+	line-height: 50px;
+}
+#jies-box .li1 input{
+	vertical-align: middle;
+}
+#jies-box .li2{
+	width:54px;
+	height:50px;
+	font-size: 12px;
+	text-align: center;
+	line-height: 50px;
+}
+#jies-box .li3{
+	width:102px;
+	height:50px;
+	line-height: 50px;
+	font-size: 12px;
+	text-align: center;
+}
+#jies-box .li4{
+	width:90px;
+	height:50px;
+	line-height: 50px;
+	font-size: 12px;
+	text-align: center;
+}
+#jies-box .li5{
+	width:200px;
+	height:50px;
+	line-height: 50px;
+	font-size: 12px;
+	text-align: center;
+}
+#jies-box .li5 a{
+	font-size: 12px;
+	color:#ea754a;
+	font-weight: 600;
+}
+#jies-box .li6{
+	width:240px;
+	height:50px;
+	line-height: 50px;
+	font-size: 12px;
+	text-align: center;
+}
+#jies-box .li6 a{
+	font-size: 16px;
+	color:#ea754a;
+	font-weight: 600;
+}
+#jies-box .li7{
+	float:right;
+	width:114px;
+	height:50px;
+	line-height: 50px;
+}
+
+#jies-box .li7 a{
+	width:114px;
+	height:50px; 
+	display: inline-block;
+	background: url(../img4/cartbar_btn.jpg) no-repeat 0 -50px;
+}
+
+/*版权*/
+#copy{
+	width:100%;
+	height:20px;
+}
+#copy-box{
+	width:950px;
+	height:20px;
+	margin:0 auto;
+	font-size: 12px;
+	line-height: 20px;
+	padding-top:20px;
+	border-top:1px solid #999999;
+	text-align: center;
+}
+
+/*点击登录*/
+#login-box{
+	display:none;
+	width:420px;
+	height:560px;
+	border:1px solid #d8d8d8;
+	position:absolute;
+	top:10%;
+	left:35%;
+	background: #fff;
+}
+.tabs{
+	width:210px;
+	height:50px;
+	color:#afafaf;
+	display:inline-block;
+	font-size: 20px;
+	text-align: center;
+	line-height: 50px;
+	border-bottom:2px solid #fff;
+}
+.tabs:hover{
+	color:#464646;
+	font-weight: 600;
+	border-color:#464646;
+}
+#for-box{
+	width:300px;
+	height:250px;
+	padding:25px 60px 0 60px;
+}
+#for-box li{
+	margin-bottom: 20px;
+	font-size: 12px;
+	color:#464646;
+}
+.user{
+	width:298px;
+	height:35px;
+	border:1px solid #d8d8d8;
+	font-size: 14px;
+}
+.passw{
+	width:185px;
+	height:35px;
+	border:1px solid #d8d8d8;
+	font-size: 14px;
+}
+.btn{
+	width:98px;
+	height:38px;
+	border:1px solid #d8d8d8;
+	font-size: 14px;
+	color:#464646;
+	margin-left:15px;
+	background:#fff;
+	outline: none;
+}
+.remb{
+	display:inline-block;
+	width:16px;
+	height:16px;
+	outline: none;
+	vertical-align:middle;
+}
+.remb-box{
+	width:300px;
+	height:35px;
+	line-height:35px;
+}
+.remb-box a{
+	float:right;
+	color:#464646;
+}
+#for-box .btn-dl{
+	color:#fff;
+	font-size:14px;
+	width:300px;
+	height:40px;
+	background:url(../img/login_sprite.png) no-repeat 0 -40px;
+	border:0;
+	outline:0;
+}
+
+/*合作账号登录*/
+#login-box-x{
+	width:300px;
+	height:90px;
+	margin:0 auto;
+	
+}
+#login-box-x dt{
+	font-size:14px;
+	text-align: center;
+}
+
+#login-box-x dd a{
+	margin:30px 15px;
+	width:30px;
+	height:30px;
+	float:left;
+}
+#login-box-x .qq a{
+	background:url(../img/login_sprite.png) no-repeat;
+}
+#login-box-x .wx a{
+	background:url(../img/login_sprite.png) no-repeat -30px 0;
+}
+#login-box-x .wb a{
+	background:url(../img/login_sprite.png) no-repeat -60px 0;
+}
+#login-box-x .zf a{
+	background:url(../img/login_sprite.png) no-repeat -90px 0;
+}
+#login-box-x .cf a{
+	background:url(../img/login_sprite.png) no-repeat -120px 0;
+}
+/*微信扫描*/
+.slo{
+	width:85px;
+	height:25px;
+	display: block;
+	background:url(../img/login_sprite.png) no-repeat 0 -360px;
+	position: absolute;
+	bottom: 12px;
+	right:55px;
+	z-index: 2;
+}
+.t-img{
+	width:60px;
+	height:60px;
+	background:url(../img/login_sprite.png) no-repeat 0 -400px;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	z-index: 1;
+}
+/*遮罩层*/
+#zhez{
+	display: none;
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,.55);
+    position: absolute;
+    top:0;
+    left:0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

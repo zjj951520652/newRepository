@@ -23,6 +23,7 @@ a:hover, a:active, a:focus { color:#ff8400;}
 	position: relative;
 	width:1200px;
 	height:82px;
+	margin:0 auto;
 	margin-bottom:11px;
 	margin-left:auto;
 }
@@ -60,6 +61,8 @@ a:hover, a:active, a:focus { color:#ff8400;}
 	background:url(../img/spriter2016.png) no-repeat -215px -75px;
 }
 .head-list .my-bag{
+	text-align: center;
+    line-height: 66px;
 	display:none;
 	width:296px;
 	height:66px;
@@ -80,6 +83,10 @@ a:hover, a:active, a:focus { color:#ff8400;}
 	color:#bfbfbf;
 	text-align: center;
 	line-height: 35px;
+}
+.head-list li .logined{
+	width:160px;
+	height:35px;
 }
 /*我的走秀*/
 .head-list .myxiu2{
@@ -136,18 +143,24 @@ a:hover, a:active, a:focus { color:#ff8400;}
 /*搜索*/
 #search{
 	position:absolute;
-	right:0;
+	right:20px;
 	top:0;
 	width:260px;
 	height:28px;
-	border:2px solid #787878;
-	background:url(../img/spriter2016.png) no-repeat 188px -43px;
+	border:1px solid #787878;	
+}
+#search a{
+	float:right;
+	width:30px;
+	height:26px;
+	background:url(../img/spriter2016.png) 0 -42px;
 }
 #search input{
 	width:230px;
 	height:26px;
 	border:0;
 	outline:0;
+	float: left;
 	background:#333333;
 	color:#D7D7D7;
 }
@@ -193,7 +206,7 @@ a:hover, a:active, a:focus { color:#ff8400;}
 	margin:0 auto;
 }
 #tab-list{
-	padding-left:180px;
+	padding-left:100px;
 	width:720px;
 	height:42px;
 	margin:0 auto;
@@ -216,7 +229,7 @@ a:hover, a:active, a:focus { color:#ff8400;}
 	display:none;
 	width:693px;
 	height:408px;
-	border:2px solid #d7d7d7;
+	border:1px solid #d7d7d7;
 	background:#fff;
 	padding:14px 37px 15px 15px;
 }
@@ -228,8 +241,7 @@ a:hover, a:active, a:focus { color:#ff8400;}
 }
 .box-right{
 	width:210px;
-	height:409px;
-	
+	height:409px;	
 	float:right;
 }
 /*左边*/

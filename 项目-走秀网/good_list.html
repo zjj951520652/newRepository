@@ -2,16 +2,16 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<title>走秀网</title>
-        <link rel="stylesheet" href="css-head/head.css" />
-        <link rel="stylesheet" href="css/index.css" />
-	    <link rel="stylesheet" href="css-foot/foot.css" />
-	    <script src="js/jquery-1.12.4.js"></script>
-	    <script src="js/index.js"></script>
-	    <script type="text/javascript" src="js/jquery.cookie.js" ></script>
+		<title>goods_list</title>
+		<link rel="stylesheet" href="css-foot/foot.css" />
+		<link rel="stylesheet" href="css-head/head.css" />
+		<link rel="stylesheet" href="css/goods_list.css" />
+		<script type="text/javascript" src="js/jquery-1.12.4.js" ></script>
+		<script type="text/javascript" src="js/head.js" ></script>
+		<script type="text/javascript" src="js/goods_list.js" ></script>
 	</head>
 	<body>
- <div id="container">
+<div id="container">
  <!--头部-->
  <div id="head-box">
  	<div id="head-main-box">
@@ -19,14 +19,13 @@
  		<!--购物/登录-->
  		<ul class="head-list">
  			<li >
- 				<a class="login" href="html/login.html">登录/注册</a>
- 				<a class="logined"></a>
+ 				<a href="#">登录/注册</a>
  			</li>
  			<li class="goods-bag" >
  			<a class="new-bag" href="#">购物袋
  			<font class="redx" id="num">0</font>件
  			</a>
-            <div class="my-bag">购物车</div>
+            <div class="my-bag"></div>
  			</li>
  			
  			<!--我的走秀-->
@@ -34,7 +33,7 @@
  			<a class="my-xiu" href="#">我的走秀</a>
  			<div class="my-list-xiu">
  				<ul>
- 					<li><a href="javascript:;">我的订单</a></li>
+ 					<li><a href="#">我的订单</a></li>
  					<li><a href="#">自助退货</a></li>
  					<li><a href="#">我的收藏</a></li>
  					<li><a href="#">帮助中心</a></li>
@@ -49,7 +48,7 @@
  		</div>
  		<!--搜索-->
  		<div id="search">
- 			<input type="text" placeholder="请输入Moncler试试" value=""><a href="javascript:;"></a>
+ 			<input type="text" placeholder="请输入Moncler试试" value="">
  		</div>
  		<!--导航-->
  		<div id="nav">
@@ -259,7 +258,7 @@
  			<div class="bl-t">
  				<h3><a href="#">女鞋</a></h3>
  			   <a href="#">帆布鞋</a>|<a href="#">皮鞋</a>|<a href="#">高跟鞋</a>|<a href="#">高帮鞋</a><br/>
- 			   <a href="#">运动鞋</a>|<a href="good_list.html">休闲鞋</a>|<a href="#">家居鞋</a>|<a href="#">拖鞋</a>		   
+ 			   <a href="#">运动鞋</a>|<a href="#">休闲鞋/a>|<a href="#">家居鞋</a>|<a href="#">拖鞋</a>		   
  			</div>
  			<div class="bl-t">
  				<h3><a href="#">男鞋</a></h3>
@@ -723,244 +722,627 @@
  			</div>
  		</div>
  	</div>
- 	
- 	
- 	
- 	
- 		<!--banner-->
- 		<div id="banner">
- 			<div id="banner-box">
- 				<a href="#"><img src="img/banner.jpg" /></a>
- 			</div>
- 		</div>
- 		
- 		
- 	<!--分享、返现、邀请-->
- 	<div id="shar">
- 		<div id="shar-box">
- 				<a class="fenxiang" href="#"></a>
- 				<a class="xinpin" href="#"></a>
- 				<a class="lipin" href="#"></a>
- 				<a class="yaoqing" href="#"></a>
+ 	<!--banner-->
+ 	<div id="banner">
+ 		<div id="banner-box">
+ 			<img src="img2/a9ebbf1a-c9ab-454d-9533-24fdd77693bf.jpg" />
  		</div>
  	</div>
- 	
- 	<!--尖货推荐-->
- 	<div id="tuij">
- 		<div id="tuij-box">
- 			<img src="img/goods_t.jpg" />
+ 	<!--商品总计-->
+ 	<div id="goods-num">
+ 		<div id="goods-num2">
+ 			<span class="position">您的位置:</span><a class="all" href="#">全部结果</a><span class="nam">鞋子 时尚</span><span class="zong">总共</span><span class="colr">352</span><span>件商品</span>
  		</div>
  	</div>
- 	<!--商品展示-->
- 	<div id="tj-goods">
- 		<div id="tj-g-box">
- 			<ul class="tj-g-box1">
- 				<li><a href="#"><img src="img/0903goods_a1.jpg"/></a></li>
- 				<li><a href="#"><img src="img/0903goods_a4.jpg"/></a></li>
- 				<li><a href="#"><img src="img/0903goods_a5.jpg"/></a></li>
- 				<li><a href="#"><img src="img/0903goods_b1.jpg"/></a></li>
- 				<li><a href="#"><img src="img/0903goods_b2.jpg"/></a></li>
- 				<li><a href="#"><img src="img/0903goods_b3.jpg"/></a></li>
- 			</ul>
- 			<ul class="tj-g-box2">
- 				<li><a href="#"><img src="img/0822goods_a11.jpg"/></a></li>
- 				<li><a href="#"><img src="img/0903goods_b4.jpg"/></a></li>
- 				<li><a href="#"><img src="img/0903goods_b5.jpg"/></a></li>
- 				<li><a href="#"><img src="img/0903goods_b6.jpg"/></a></li>
- 				<li><a href="#"><img src="img/0904goods_a3.jpg"/></a></li>
- 				<li><a href="#"><img src="img/0904goods_a6.jpg"/></a></li>
- 			</ul>
+    <!--相关搜索-->
+    <div id="goods-num-x">
+ 		<div id="goods-num2-x">
+ 			<span class="position">相关搜索:</span><a class="all" href="#">春时尚鞋子</a>|<a class="all" href="#">春时尚鞋子</a>|<a class="all" href="#">春时尚鞋子</a>
  		</div>
  	</div>
- 	<!--热建专题-->
- 	<div id="rtui">
- 		<div id="rtui-box">
- 		     <img src="img/topic_t.jpg" />
- 		</div>
- 	</div>
- 	<!--商品展示-->
- 	<div id="rt-goods">
- 		<div id="rt-g-box">
- 			<ul>
- 				<li>
- 					<a href="#"><img src="img/0619beats_06.jpg"/></a>
- 				    <p><img src="img/0708beats_06.png"/></p>
- 				</li>
- 				<li>
- 					<a href="#"><img src="img/0827beats_02.jpg"/></a>
- 				    <p><img src="img/0827beats_02.png"/></p>
- 				</li>
- 				<li>
- 					<a href="#"><img src="img/0901beats_02.jpg"/></a>
- 				    <p><img src="img/0901beats_02.png"/></p>
- 				</li>
- 				<li>
- 					<a href="#"><img src="img/0903beats_03.jpg"/></a>
- 				    <p><img src="img/0903beats_03.png"/></p>
- 				</li>
- 				<li>
- 					<a href="#"><img src="img/0903beats_04.jpg"/></a>
- 				    <p><img src="img/0903beats_04.png"/></p>
- 				</li>
- 				<li>
- 					<a href="#"><img src="img/0903beats_05.jpg"/></a>
- 				    <p><img src="img/0903beats_05.png"/></p>
- 				</li>
- 			</ul>
- 		</div>
- 	</div>
- 	<!--更多专题-->
- 	
- 	<div id="more-zt">
- 		<div id="more-zt-box">
- 			<a href="#"><img src="img/topic_m.jpg" /></a>
- 		</div>
- 	</div>
- 	<!--精选卖场-->
- 	<div id="hot-tj">
- 		<div id="hot-tj-box">
- 			<img src="img/beat_t.jpg" />
- 		</div>
- 	</div>
- 	<!--商品展示-->
- 	<div id="hot-goods">
- 		<div id="hot-g-box">
- 		     <ul>
- 		     	<li>
- 		     		<a href="#"><img src="img/0812sales_01.jpg"/></a>
- 		     		<p><img src="img/0812sales_01.png"/></p>
- 		     	</li>
- 		     	<li>
- 		     		<a href="#"><img src="img/0829sales_02.jpg"/></a>
- 		     	    <p><img src="img/0809sales_02.png"/></p>
- 		     	</li>
- 		     	<li>
- 		     		<a href="#"><img src="img/0809sales_03.jpg"/></a>
- 		     		<p><img src="img/0809sales_03.png"/></p>
- 		     	</li>
- 		     	<li>
- 		     		<a href="#"><img src="img/0829sales_04.jpg"/></a>
- 		     		<p><img src="img/0809sales_04.png"/></p>
- 		     	</li>
- 		     	<li>
- 		     		<a href="#"><img src="img/0829sales_05.jpg"/></a>
- 		     		<p><img src="img/0809sales_05.png"/></p>
- 		     	</li>
- 		     	<li>
- 		     		<a href="#"><img src="img/0830sales_06.jpg"/></a>
- 		     		<p><img src="img/0810sales_06.png"/></p>
- 		     	</li>
- 		     	<li>
- 		     		<a href="#"><img src="img/0809sales_07.jpg"/></a>
- 		     		<p><img src="img/0809sales_07.png"/></p>
- 		     	</li>
- 		     	<li>
- 		     		<a href="#"><img src="img/0829sales_08.jpg"/></a>
- 		     		<p><img src="img/0809sales_08.png"/></p>
- 		     	</li>
- 		     	<li>
- 		     		<a href="#"><img src="img/0829sales_09.jpg"/></a>
- 		     		<p><img src="img/0809sales_09.png"/></p>
- 		     	</li>
- 		     	<li>
- 		     		<a href="#"><img src="img/0810sales_10.jpg"/></a>
- 		     		<p><img src="img/0810sales_10.png"/></p>
- 		     	</li>
- 		     	<li>
- 		     		<a href="#"><img src="img/0809sales_11.jpg"/></a>
- 		     		<p><img src="img/0809sales_11.png"/></p>
- 		     	</li>
- 		     	<li>
- 		     		<a href="#"><img src="img/0809sales_12.jpg"/></a>
- 		     		<p><img src="img/0809sales_12.png"/></p>
- 		     	</li>
- 		     </ul>	
- 		</div>
- 	</div>
- 	
- 	<!--更多卖场-->
- 	<div id="more-zt">
- 		<div id="more-zt-box">
- 			<a href="#"><img src="img/beat_m.jpg" /></a>
- 		</div>
- 	</div>
- 	<!--商品展示-->
- 	<div id="msld">
- 		<div id="msld-box">
- 			<img src="img/0830auto.jpg" />
- 		</div>
- 	</div>
- 	<!--发现好货-->
- 	<div id="found">
- 		<div id="found-box">
- 			<img src="img/found_t.jpg" />
- 		</div>
- 	</div>
- 	<!--商品展示-->
- 	<div id="found-goods">
- 		<div id="found-g-box">
- 			<ul>
- 				<li>
- 					<a href="#"><img src="img/20160830_001.jpg"/></a>
- 				</li>
- 				<li>
- 					<a href="#"><img src="img/20160830_002.jpg"/></a>
- 				</li>
- 				<li>
- 					<a href="#"><img src="img/20160830_003.jpg"/></a>
- 				</li>
- 				<li>
- 					<a href="#"><img src="img/20160831_004.jpg"/></a>
- 				</li>
- 				<li class="have-m">
- 					<a href="#"><img src="img/20160830_005.jpg"/></a>
- 				</li>
- 				<li class="have-m">
- 					<a href="#"><img src="img/20160830_006.jpg"/></a>
- 				</li>
- 				<li class="have-m">
- 					<a href="#"><img src="img/20160830_007.jpg"/></a>
- 				</li>
- 				<li class="have-m">
- 					<a href="#"><img src="img/20160830_008.jpg"/></a>
- 				</li>
- 				<li class="have-m">
- 					<a href="#"><img src="img/20160830_009.jpg"/></a>
- 				</li>
- 				<li class="have-m">
- 					<a href="#"><img src="img/20160830_010.jpg"/></a>
- 				</li>
- 				<li class="have-m">
- 					<a href="#"><img src="img/20160830_011.jpg"/></a>
- 				</li>
- 				<li class="have-m">
- 					<a href="#"><img src="img/20160830_012.jpg"/></a>
- 				</li>
- 				<li>
- 					<a href="#"><img src="img/20160830_013.jpg"/></a>
- 				</li>
- 				<li>
- 					<a href="#"><img src="img/20160830_014.jpg"/></a>
- 				</li>
- 				<li>
- 					<a href="#"><img src="img/20160830_015.jpg"/></a>
- 				</li>
- 				<li>
- 					<a href="#"><img src="img/20160831_016.jpg"/></a>
- 				</li>
- 			</ul>
- 		</div>
- 	</div>
- 	<!--发现更多好货-->
- 	<div id="more-zt">
- 		<div id="more-zt-box">
- 			<a href="#"><img src="img/fonud_m.jpg" /></a>
- 		</div>
- 	</div>
- 	
- 	
- 	
- 	<!--foot-->
+ 	<!--分类-->
+    <div id="lei">
+    	<div id="lei-box">
+    		<span class="fenl">分类:</span><a class="pinm" href="#">鞋靴</a><a class="pinm" href="#">婴童</a>
+    	</div>
+    </div>
+    
+    <div id="goods">
+    <div id="goods-box">
+    	<!--列表头部信息-->
+    <div id="goods-l-head">
+ 	    <div id="g-l-h-box">
+ 	    	<ul class="pice">
+ 	    		<li class="no-b"><a href="#">默认</a></li>
+ 	    		<li class="no-b"><a href="#">价格</a></li>
+ 	    		<li class="no-b"><a href="#">折扣</a></li>
+ 	    		<li class="b-b"><a href="#">上架时间</a></li>
+ 	    	</ul>
+ 	    	<ul class="send-t">
+ 	    		<li>发货方式:</li>
+ 	    		<li><input type="radio" name="send" checked/>全部</li>
+ 	    		<li><input type="radio" name="send"/>海外发货</li>
+ 	    		<li><input type="radio" name="send"/>国内发货</li>
+ 	    	</ul>
+ 	    	<ul class="page">
+ 	    		<li>1/11</li>
+ 	    		<li class="page-2"><a href="#">上一页</a></li>
+ 	    		<li><a href="#">下一页</a></li>
+ 	    	</ul>
+ 	    </div>
+    </div>
+    
+    <!--商品列表信息-->
+         <div id="good-l-box">
+         	 <ul>
+         	 	<li class="good-num">
+         	 		<dl>
+         	 			<dt>
+         	 				<a href="#"><img src="img2/g1_234_312.jpg"/><span</a>
+         	 				<div class="size">
+         	 					<p>可售尺码:</p>
+         	 					<span>36</span><span>37</span><span>38</span><span>39</span>
+         	 					<span>40</span><span>41</span><span>42</span><span>43</span>
+         	 					<span>44</span><span>44.5</span>
+         	 				</div>
+         	 			</dt>
+         	 			<dd>
+         	 				<p>Marc&ensp;Jacobs</p>
+         	 				<a>2016春新品黑色牛皮浅口女单鞋</a><span class="h-color">时尚</span>
+         	 				<span class="j-ge">2688</span ><span class="y-jia">4480</span>
+         	 			</dd>
+         	 		</dl>
+         	 	</li>
+         	 	<li class="good-num">
+         	 		<dl>
+         	 			<dt>
+         	 				<a href="#"><img src="img2/g1_234_312(1).jpg"/></a>
+         	 			    <div class="size">
+         	 					<p>可售尺码:</p>
+         	 					<span>36</span><span>37</span><span>38</span><span>39</span>
+         	 					<span>40</span><span>41</span><span>42</span><span>43</span>
+         	 					<span>44</span><span>44.5</span>
+         	 				</div>
+         	 			</dt>
+         	 			<dd><p>Marc&ensp;Jacobs</p>
+         	 				<a>2016春新品黑色牛皮浅口女单鞋</a><span class="h-color">时尚</span>
+         	 				<span class="j-ge">2688</span ><span class="y-jia">4480</span>
+         	 			</dd>
+         	 		</dl>
+         	 	</li>
+         	 	<li class="good-num">
+         	 		<dl>
+         	 			<dt>
+         	 				<a href="#"><img src="img2/g1_234_312(2).jpg"/></a>
+         	 			    <div class="size">
+         	 					<p>可售尺码:</p>
+         	 					<span>36</span><span>37</span><span>38</span><span>39</span>
+         	 					<span>40</span><span>41</span><span>42</span><span>43</span>
+         	 					<span>44</span><span>44.5</span>
+         	 				</div>
+         	 			</dt>
+         	 			<dd>
+         	 				<p>Marc&ensp;Jacobs</p>
+         	 				<a>2016春新品黑色牛皮浅口女单鞋</a><span class="h-color">时尚</span>
+         	 				<span class="j-ge">2688</span ><span class="y-jia">4480</span>
+         	 			</dd>
+         	 		</dl>
+         	 	</li>
+         	 	<li class="good-num">
+         	 		<dl>
+         	 			<dt>
+         	 				<a href="#"><img src="img2/g1_234_312(3).jpg"/></a>
+         	 			    <div class="size">
+         	 					<p>可售尺码:</p>
+         	 					<span>36</span><span>37</span><span>38</span><span>39</span>
+         	 					<span>40</span><span>41</span><span>42</span><span>43</span>
+         	 					<span>44</span><span>44.5</span>
+         	 				</div>
+         	 			</dt>
+         	 			<dd>
+         	 				<p>Marc&ensp;Jacobs</p>
+         	 				<a>2016春新品黑色牛皮浅口女单鞋</a><span class="h-color">时尚</span>
+         	 				<span class="j-ge">2688</span ><span class="y-jia">4480</span>
+         	 			</dd>
+         	 		</dl>
+         	 	</li>
+         	 	<li class="good-num">
+         	 		<dl>
+         	 			<dt>
+         	 				<a href="#"><img src="img2/g1_234_312(4).jpg"/></a>
+         	 			    <div class="size">
+         	 					<p>可售尺码:</p>
+         	 					<span>36</span><span>37</span><span>38</span><span>39</span>
+         	 					<span>40</span><span>41</span><span>42</span><span>43</span>
+         	 				</div>
+         	 			</dt>
+         	 			<dd>
+         	 				<p>Marc&ensp;Jacobs</p>
+         	 				<a>2016春新品黑色牛皮浅口女单鞋</a><span class="h-color">时尚</span>
+         	 				<span class="j-ge">2688</span ><span class="y-jia">4480</span>
+         	 			</dd>
+         	 		</dl>
+         	 	</li>
+         	 	<li class="good-num">
+         	 		<dl>
+         	 			<dt>
+         	 				<a href="#"><img src="img2/g1_234_312(5).jpg"/></a>
+         	 			    <div class="size">
+         	 					<p>可售尺码:</p>
+         	 					<span>36</span><span>37</span><span>38</span><span>39</span>
+         	 					<span>40</span><span>41</span><span>42</span><span>43</span>
+         	 					<span>44</span><span>44.5</span>
+         	 				</div>
+         	 			</dt>
+         	 			<dd>
+         	 				<p>Marc&ensp;Jacobs</p>
+         	 				<a>2016春新品黑色牛皮浅口女单鞋</a><span class="h-color">时尚</span>
+         	 				<span class="j-ge">2688</span ><span class="y-jia">4480</span>
+         	 			</dd>
+         	 		</dl>
+         	 	</li>
+         	 	<li class="good-num">
+         	 		<dl>
+         	 			<dt>
+         	 				<a href="#"><img src="img2/g1_234_312(6).jpg"/></a>
+         	 			    <div class="size">
+         	 					<p>可售尺码:</p>
+         	 					<span>36</span><span>37</span><span>38</span><span>39</span>
+         	 					<span>40</span><span>41</span><span>42</span><span>43</span>
+         	 					<span>44</span><span>44.5</span>
+         	 				</div>
+         	 			</dt>
+         	 			<dd>
+         	 				<p>Marc&ensp;Jacobs</p>
+         	 				<a>2016春新品黑色牛皮浅口女单鞋</a><span class="h-color">时尚</span>
+         	 				<span class="j-ge">2688</span ><span class="y-jia">4480</span>
+         	 			</dd>
+         	 		</dl>
+         	 	</li>
+         	 	<li class="good-num">
+         	 		<dl>
+         	 			<dt>
+         	 				<a href="#"><img src="img2/g1_234_312(7).jpg"/></a>
+         	 			    <div class="size">
+         	 					<p>可售尺码:</p>
+         	 					<span>36</span><span>37</span><span>38</span><span>39</span>
+         	 					<span>40</span><span>41</span><span>42</span><span>43</span>
+         	 					<span>44</span><span>44.5</span>
+         	 				</div>
+         	 			</dt>
+         	 			<dd>
+         	 				<p>Marc&ensp;Jacobs</p>
+         	 				<a>2016春新品黑色牛皮浅口女单鞋</a><span class="h-color">时尚</span>
+         	 				<span class="j-ge">2688</span ><span class="y-jia">4480</span>
+         	 			</dd>
+         	 		</dl>
+         	 	</li>
+         	 	<li class="good-num">
+         	 		<dl>
+         	 			<dt>
+         	 				<a href="#"><img src="img2/g1_234_312 (1).jpg"/></a>
+         	 			    <div class="size">
+         	 					<p>可售尺码:</p>
+         	 					<span>36</span><span>37</span><span>38</span><span>39</span>
+         	 					<span>40</span><span>41</span><span>42</span><span>43</span>
+         	 					<span>44</span><span>44.5</span>
+         	 				</div>
+         	 			</dt>
+         	 			<dd>
+         	 				<p>Marc&ensp;Jacobs</p>
+         	 				<a>2016春新品黑色牛皮浅口女单鞋</a><span class="h-color">时尚</span>
+         	 				<span class="j-ge">2688</span ><span class="y-jia">4480</span>
+         	 			</dd>
+         	 		</dl>
+         	 	</li>
+         	 	<li class="good-num">
+         	 		<dl>
+         	 			<dt>
+         	 				<a href="#"><img src="img2/g1_234_312 (16).jpg"/></a>
+         	 			    <div class="size">
+         	 					<p>可售尺码:</p>
+         	 					<span>36</span><span>37</span><span>38</span><span>39</span>
+         	 					<span>40</span><span>41</span><span>42</span><span>43</span>
+         	 					<span>44</span><span>44.5</span>
+         	 				</div>
+         	 			</dt>
+         	 			<dd>
+         	 				<p>Marc&ensp;Jacobs</p>
+         	 				<a>2016春新品黑色牛皮浅口女单鞋</a><span class="h-color">时尚</span>
+         	 				<span class="j-ge">2688</span ><span class="y-jia">4480</span>
+         	 			</dd>
+         	 		</dl>
+         	 	</li>
+         	 	<li class="good-num">
+         	 		<dl>
+         	 			<dt>
+         	 				<a href="#"><img src="img2/g1_234_312.jpg"/></a>
+         	 			    <div class="size">
+         	 					<p>可售尺码:</p>
+         	 					<span>36</span><span>37</span><span>38</span><span>39</span>
+         	 					<span>40</span><span>41</span><span>42</span><span>43</span>
+         	 					<span>44</span><span>44.5</span>
+         	 				</div>
+         	 			</dt>
+         	 			<dd>
+         	 				<p>Marc&ensp;Jacobs</p>
+         	 				<a>2016春新品黑色牛皮浅口女单鞋</a><span class="h-color">时尚</span>
+         	 				<span class="j-ge">2688</span ><span class="y-jia">4480</span>
+         	 			</dd>
+         	 		</dl>
+         	 	</li>
+         	 	<li class="good-num">
+         	 		<dl>
+         	 			<dt>
+         	 				<a href="#"><img src="img2/g1_234_312 (10).jpg"/></a>
+         	 			    <div class="size">
+         	 					<p>可售尺码:</p>
+         	 					<span>36</span><span>37</span><span>38</span><span>39</span>
+         	 					<span>40</span><span>41</span><span>42</span><span>43</span>
+         	 					<span>44</span><span>44.5</span>
+         	 				</div>
+         	 			</dt>
+         	 			<dd>
+         	 				<p>Marc&ensp;Jacobs</p>
+         	 				<a>2016春新品黑色牛皮浅口女单鞋</a><span class="h-color">时尚</span>
+         	 				<span class="j-ge">2688</span ><span class="y-jia">4480</span>
+         	 			</dd>
+         	 		</dl>
+         	 	</li>
+         	 	<li class="good-num">
+         	 		<dl>
+         	 			<dt>
+         	 				<a href="#"><img src="img2/g1_234_312 (11).jpg"/></a>
+         	 			    <div class="size">
+         	 					<p>可售尺码:</p>
+         	 					<span>36</span><span>37</span><span>38</span><span>39</span>
+         	 					<span>40</span><span>41</span><span>42</span><span>43</span>
+         	 					<span>44</span><span>44.5</span>
+         	 				</div>
+         	 			</dt>
+         	 			<dd>
+         	 				<p>Marc&ensp;Jacobs</p>
+         	 				<a>2016春新品黑色牛皮浅口女单鞋</a><span class="h-color">时尚</span>
+         	 				<span class="j-ge">2688</span ><span class="y-jia">4480</span>
+         	 			</dd>
+         	 		</dl>
+         	 	</li>
+         	 	<li class="good-num">
+         	 		<dl>
+         	 			<dt>
+         	 				<a href="#"><img src="img2/g1_234_312 (12).jpg"/></a>
+         	 			    <div class="size">
+         	 					<p>可售尺码:</p>
+         	 					<span>36</span><span>37</span><span>38</span><span>39</span>
+         	 					<span>40</span><span>41</span><span>42</span><span>43</span>
+         	 					<span>44</span><span>44.5</span>
+         	 				</div>
+         	 			</dt>
+         	 			<dd>
+         	 				<p>Marc&ensp;Jacobs</p>
+         	 				<a>2016春新品黑色牛皮浅口女单鞋</a><span class="h-color">时尚</span>
+         	 				<span class="j-ge">2688</span ><span class="y-jia">4480</span>
+         	 			</dd>
+         	 		</dl>
+         	 	</li>
+         	 	<li class="good-num">
+         	 		<dl>
+         	 			<dt>
+         	 				<a href="#"><img src="img2/g1_234_312 (13).jpg"/></a>
+         	 			    <div class="size">
+         	 					<p>可售尺码:</p>
+         	 					<span>36</span><span>37</span><span>38</span><span>39</span>
+         	 					<span>40</span><span>41</span><span>42</span><span>43</span>
+         	 					<span>44</span><span>44.5</span>
+         	 				</div>
+         	 			</dt>
+         	 			<dd>
+         	 				<p>Marc&ensp;Jacobs</p>
+         	 				<a>2016春新品黑色牛皮浅口女单鞋</a><span class="h-color">时尚</span>
+         	 				<span class="j-ge">2688</span ><span class="y-jia">4480</span>
+         	 			</dd>
+         	 		</dl>
+         	 	</li>
+         	 	<li class="good-num">
+         	 		<dl>
+         	 			<dt>
+         	 				<a href="#"><img src="img2/g1_234_312 (14).jpg"/></a>
+         	 			    <div class="size">
+         	 					<p>可售尺码:</p>
+         	 					<span>36</span><span>37</span><span>38</span><span>39</span>
+         	 					<span>40</span><span>41</span><span>42</span><span>43</span>
+         	 					<span>44</span><span>44.5</span>
+         	 				</div>
+         	 			</dt>
+         	 			<dd>
+         	 				<p>Marc&ensp;Jacobs</p>
+         	 				<a>2016春新品黑色牛皮浅口女单鞋</a><span class="h-color">时尚</span>
+         	 				<span class="j-ge">2688</span ><span class="y-jia">4480</span>
+         	 			</dd>
+         	 		</dl>
+         	 	</li>
+         	 	<li class="good-num">
+         	 		<dl>
+         	 			<dt><a href="#"><img src="img2/g1_234_312 (15).jpg"/></a></dt>
+         	 			<dd>
+         	 				<p>Marc&ensp;Jacobs</p>
+         	 				<a>2016春新品黑色牛皮浅口女单鞋</a><span class="h-color">时尚</span>
+         	 				<span class="j-ge">2688</span ><span class="y-jia">4480</span>
+         	 			</dd>
+         	 		</dl>
+         	 	</li>
+         	 	<li class="good-num">
+         	 		<dl>
+         	 			<dt><a href="#"><img src="img2/g1_234_312 (16).jpg"/></a></dt>
+         	 			<dd>
+         	 				<p>Marc&ensp;Jacobs</p>
+         	 				<a>2016春新品黑色牛皮浅口女单鞋</a><span class="h-color">时尚</span>
+         	 				<span class="j-ge">2688</span ><span class="y-jia">4480</span>
+         	 			</dd>
+         	 		</dl>
+         	 	</li>
+         	 	<li class="good-num">
+         	 		<dl>
+         	 			<dt><a href="#"><img src="img2/g1_234_312 (17).jpg"/></a></dt>
+         	 			<dd>
+         	 				<p>Marc&ensp;Jacobs</p>
+         	 				<a>2016春新品黑色牛皮浅口女单鞋</a><span class="h-color">时尚</span>
+         	 				<span class="j-ge">2688</span ><span class="y-jia">4480</span>
+         	 			</dd>
+         	 		</dl>
+         	 	</li>
+         	 	<li class="good-num">
+         	 		<dl>
+         	 			<dt><a href="#"><img src="img2/g1_234_312 (18).jpg"/></a></dt>
+         	 			<dd>
+         	 				<p>Marc&ensp;Jacobs</p>
+         	 				<a>2016春新品黑色牛皮浅口女单鞋</a><span class="h-color">时尚</span>
+         	 				<span class="j-ge">2688</span ><span class="y-jia">4480</span>
+         	 			</dd>
+         	 		</dl>
+         	 	</li>
+         	 	<li class="good-num">
+         	 		<dl>
+         	 			<dt><a href="#"><img src="img2/g1_234_312 (19).jpg"/></a></dt>
+         	 			<dd>
+         	 				<p>Marc&ensp;Jacobs</p>
+         	 				<a>2016春新品黑色牛皮浅口女单鞋</a><span class="h-color">时尚</span>
+         	 				<span class="j-ge">2688</span ><span class="y-jia">4480</span>
+         	 			</dd>
+         	 		</dl>
+         	 	</li>
+         	 	<li class="good-num">
+         	 		<dl>
+         	 			<dt><a href="#"><img src="img2/g1_234_312 (2).jpg"/></a></dt>
+         	 			<dd>
+         	 				<p>Marc&ensp;Jacobs</p>
+         	 				<a>2016春新品黑色牛皮浅口女单鞋</a><span class="h-color">时尚</span>
+         	 				<span class="j-ge">2688</span ><span class="y-jia">4480</span>
+         	 			</dd>
+         	 		</dl>
+         	 	</li>
+         	 	<li class="good-num">
+         	 		<dl>
+         	 			<dt><a href="#"><img src="img2/g1_234_312 (20).jpg"/></a></dt>
+         	 			<dd>
+         	 				<p>Marc&ensp;Jacobs</p>
+         	 				<a>2016春新品黑色牛皮浅口女单鞋</a><span class="h-color">时尚</span>
+         	 				<span class="j-ge">2688</span ><span class="y-jia">4480</span>
+         	 			</dd>
+         	 		</dl>
+         	 	</li>
+         	 	<li class="good-num">
+         	 		<dl>
+         	 			<dt><a href="#"><img src="img2/g1_234_312 (21).jpg"/></a></dt>
+         	 			<dd>
+         	 				<p>Marc&ensp;Jacobs</p>
+         	 				<a>2016春新品黑色牛皮浅口女单鞋</a><span class="h-color">时尚</span>
+         	 				<span class="j-ge">2688</span ><span class="y-jia">4480</span>
+         	 			</dd>
+         	 		</dl>
+         	 	</li>
+         	 	<li class="good-num">
+         	 		<dl>
+         	 			<dt><a href="#"><img src="img2/g1_234_312 (22).jpg"/></a></dt>
+         	 			<dd>
+         	 				<p>Marc&ensp;Jacobs</p>
+         	 				<a>2016春新品黑色牛皮浅口女单鞋</a><span class="h-color">时尚</span>
+         	 				<span class="j-ge">2688</span ><span class="y-jia">4480</span>
+         	 			</dd>
+         	 		</dl>
+         	 	</li>
+         	 	<li class="good-num">
+         	 		<dl>
+         	 			<dt>
+         	 				<a href="#"><img src="img2/g1_234_312 (23).jpg"/></a>
+         	 			    <div class="size">
+         	 					<p>可售尺码:</p>
+         	 					<span>36</span><span>37</span><span>38</span><span>39</span>
+         	 					<span>40</span><span>41</span><span>42</span><span>43</span>
+         	 					<span>44</span><span>44.5</span>
+         	 				</div>
+         	 			</dt>
+         	 			<dd>
+         	 				<p>Marc&ensp;Jacobs</p>
+         	 				<a>2016春新品黑色牛皮浅口女单鞋</a><span class="h-color">时尚</span>
+         	 				<span class="j-ge">2688</span ><span class="y-jia">4480</span>
+         	 			</dd>
+         	 		</dl>
+         	 	</li>
+         	 	<li class="good-num">
+         	 		<dl>
+         	 			<dt>
+         	 				<a href="#"><img src="img2/g1_234_312 (3).jpg"/></a>
+         	 			    <div class="size">
+         	 					<p>可售尺码:</p>
+         	 					<span>36</span><span>37</span><span>38</span><span>39</span>
+         	 					<span>40</span><span>41</span><span>42</span><span>43</span>
+         	 					<span>44</span><span>44.5</span>
+         	 				</div>
+         	 			</dt>
+         	 			<dd>
+         	 				<p>Marc&ensp;Jacobs</p>
+         	 				<a>2016春新品黑色牛皮浅口女单鞋</a><span class="h-color">时尚</span>
+         	 				<span class="j-ge">2688</span ><span class="y-jia">4480</span>
+         	 			</dd>
+         	 		</dl>
+         	 	</li>
+         	 	<li class="good-num">
+         	 		<dl>
+         	 			<dt>
+         	 				<a href="#"><img src="img2/g1_234_312 (4).jpg"/></a>
+         	 			    <div class="size">
+         	 					<p>可售尺码:</p>
+         	 					<span>36</span><span>37</span><span>38</span><span>39</span>
+         	 					<span>40</span><span>41</span><span>42</span><span>43</span>
+         	 					<span>44</span><span>44.5</span>
+         	 				</div>
+         	 			</dt>
+         	 			<dd>
+         	 				<p>Marc&ensp;Jacobs</p>
+         	 				<a>2016春新品黑色牛皮浅口女单鞋</a><span class="h-color">时尚</span>
+         	 				<span class="j-ge">2688</span ><span class="y-jia">4480</span>
+         	 			</dd>
+         	 		</dl>
+         	 	</li>
+         	 	<li class="good-num">
+         	 		<dl>
+         	 			<dt><a href="#"><img src="img2/g1_234_312 (5).jpg"/></a></dt>
+         	 			<dd>
+         	 				<p>Marc&ensp;Jacobs</p>
+         	 				<a>2016春新品黑色牛皮浅口女单鞋</a><span class="h-color">时尚</span>
+         	 				<span class="j-ge">2688</span ><span class="y-jia">4480</span>
+         	 			</dd>
+         	 		</dl>
+         	 	</li>
+         	 	<li class="good-num">
+         	 		<dl>
+         	 			<dt>
+         	 				<a href="#"><img src="img2/g1_234_312 (6).jpg"/></a>
+         	 			    <div class="size">
+         	 					<p>可售尺码:</p>
+         	 					<span>36</span><span>37</span><span>38</span><span>39</span>
+         	 					<span>40</span><span>41</span><span>42</span><span>43</span>
+         	 					<span>44</span><span>44.5</span>
+         	 				</div>
+         	 			</dt>
+         	 			<dd>
+         	 				<p>Marc&ensp;Jacobs</p>
+         	 				<a>2016春新品黑色牛皮浅口女单鞋</a><span class="h-color">时尚</span>
+         	 				<span class="j-ge">2688</span ><span class="y-jia">4480</span>
+         	 			</dd>
+         	 		</dl>
+         	 	</li>
+         	 	<li class="good-num">
+         	 		<dl>
+         	 			<dt>
+         	 				<a href="#"><img src="img2/g1_234_312.jpg"/></a>
+         	 			    <div class="size">
+         	 					<p>可售尺码:</p>
+         	 					<span>36</span><span>37</span><span>38</span><span>39</span>
+         	 					<span>40</span><span>41</span><span>42</span><span>43</span>
+         	 					<span>44</span><span>44.5</span>
+         	 				</div>
+         	 			</dt>
+         	 			<dd>
+         	 				<p>Marc&ensp;Jacobs</p>
+         	 				<a>2016春新品黑色牛皮浅口女单鞋</a><span class="h-color">时尚</span>
+         	 				<span class="j-ge">2688</span ><span class="y-jia">4480</span>
+         	 			</dd>
+         	 		</dl>
+         	 	</li>
+         	 	<li class="good-num">
+         	 		<dl>
+         	 			<dt>
+         	 				<a href="#"><img src="img2/g1_234_312.jpg"/></a>
+         	 			    <div class="size">
+         	 					<p>可售尺码:</p>
+         	 					<span>36</span><span>37</span><span>38</span><span>39</span>
+         	 					<span>40</span><span>41</span><span>42</span><span>43</span>
+         	 					<span>44</span><span>44.5</span>
+         	 				</div>
+         	 			</dt>
+         	 			<dd>
+         	 				<p>Marc&ensp;Jacobs</p>
+         	 				<a>2016春新品黑色牛皮浅口女单鞋</a><span class="h-color">时尚</span>
+         	 				<span class="j-ge">2688</span ><span class="y-jia">4480</span>
+         	 			</dd>
+         	 		</dl>
+         	 	</li>
+         	 	</li>
+         	 </ul>
+         </div>	
+         <div id="page-t">
+         	<a href="#">首页</a><a href="#">上一页</a><a href="#">1</a><a href="#">2</a><a href="#">3</a><a href="#">4</a><a href="#">5</a><a href="#">6</a><a href="#">7</a><a href="#">8</a><a href="#">9</a>
+            <a href="">10</a> <a href="">下一页</a><a href="">尾页</a><span>共11页</span>
+         </div>
+    </div>
+    </div>
+ 
+    <!--搜索-->
+    <div id="sear">
+    	<div id="sear-box">
+    		<input placeholder="鞋子 时尚" type="text"/><button>搜索</button>
+    	</div>
+    </div>
+ 
+    <!--猜你喜欢-->
+    <div id="like">
+    	<p>猜你喜欢Recommend</p>
+    	<div id="like-box">
+    		<ul>
+    			<li>
+    				<dl>
+    					<dt><a href="#"><img src="img2/g1_180_240.jpg"/></a></dt>
+    					<dd>
+    						<p>Miu&ensp;Miu</p>
+    						<a>女士牛皮钱包</a>
+    						<span>3390</span>
+    					</dd>
+    				</dl>
+    			</li>
+    			<li>
+    				<dl>
+    					<dt><a href="#"><img src="img2/g1_180_240(1).jpg"/></a></dt>
+    					<dd><p>Miu&ensp;Miu</p>
+    						<a>女士牛皮钱包</a>
+    						<span>3390</span>
+    					</dd>
+    				</dl>
+    			</li>
+    			<li>
+    				<dl>
+    					<dt><a href="#"><img src="img2/g1_180_240(2).jpg"/></a></dt>
+    					<dd><p>Miu&ensp;Miu</p>
+    						<a>女士牛皮钱包</a>
+    						<span>3390</span>
+    					</dd>
+    				</dl>
+    			</li>
+    			<li>
+    				<dl>
+    					<dt><a href="#"><img src="img2/g1_180_240(3).jpg"/></a></dt>
+    					<dd><p>Miu&ensp;Miu</p>
+    						<a>女士牛皮钱包</a>
+    						<span>3390</span>
+    					</dd>
+    				</dl>
+    			</li>
+    			<li>
+    				<dl>
+    					<dt><a href="#"><img src="img2/g1_180_240(4).jpg"/></a></dt>
+    					<dd><p>Miu&ensp;Miu</p>
+    						<a>女士牛皮钱包</a>
+    						<span>3390</span>
+    					</dd>
+    				</dl>
+    			</li>
+    		</ul>
+    	</div>
+    </div>
+ 
+ 
+ <!--foot-->
  	<div id="foot">
  		<div id="foot-box">
  			<div class="f-box1">
@@ -1047,12 +1429,17 @@
  		</div>
  	</div>
  	
- 	
- 	
- 	
- 	
- 	
- 	
- </div>	
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </div>		
 	</body>
 </html>

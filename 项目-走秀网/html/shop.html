@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>购物车</title>
+		<link rel="stylesheet" href="../css/shop.css" />
+		<script type="text/javascript" src="../js/jquery-1.12.4.js" ></script>
+		<script type="text/javascript" src="../js/jquery.cookie.js" ></script>
+		<script type="text/javascript" src="../js/shop.js" ></script>
+	</head>
+	<body>
+		<div id="container">
+	<!--head-->
+	<div id="shop-head">
+		<div id="shop-head-box">
+			<div id="logo">
+			</div>
+			<div id="head-r">
+				<p><span>客服热线(免长途费):</span><b>400-888-4499</b><a href="#">在线客服</a></p>
+				<p><span>您好！欢迎光临走秀网！</span><a id="login" href="#">[登录/注册]</a>|<a>帮助中心</a></p>
+			</div>
+		</div>
+	</div>
+    
+    <!--流程-->
+    <div id="flow">
+    	<div id="flow-box">
+    		<ul>
+    			<li class="xuanz">1.我的购物袋<span class="shop1"></span></li>
+    			<li>2.填写并核对订单信息<span class="shop2"></span></li>
+    			<li>3.成功提交订单</li>
+    		</ul>
+    	</div>
+    </div>
+    
+    <!--主体/没有商品-->
+ 
+    <div id="shop-main">
+    	<div id="shop-m-box">
+    		<img src="../img4/nogoods.jpg"/>
+    		<span>购物车现在没有商品，现在就去<a href="#">挑选自己喜欢的商品</a></span>
+    	</div>
+    </div>
+    
+    <!--购物车商品-->
+    <div id="shop-goods">
+    	<div id="shop-g-box">
+    		<table>
+    			<tr>
+    				<th class="th1"><input type="checkbox" name="ral"/>全选</th>
+    				<th class="th2">商品</th>
+    				<th class="th3">购买价(元)</th>
+    				<th class="th4">小计(元)</th>
+    				<th class="th5">数量</th>
+    				<th class="th6">操作</th>
+    			</tr>
+    			<tr>
+    				<td><input type="checkbox" name="ral"/></td>
+    				<td>
+    					<div class="img-l">
+    						<img src="../img4/g1_66_88.jpg"/>
+    					</div>
+    					<div class="img-r">
+    					<p>Franceach</p>
+    					<a>女士黑色真丝中长款大摆无袖A字连衣裙</a>
+    					<p>颜色 : 黑色 尺码 : S</p>
+    					</div>    				   
+    				</td>
+    				<td class="danj">￥598</td>
+    				<td class="xiaoj">￥598</td>
+    				<td class="shul"><a class="cut" href="javascript:;">-</a><input class="good-num" type="text"/><a class="add" href="javascript:;">+</a></td>
+    				<td class="caoz">
+    					<a>移至收藏夹</a>
+    					<a>删除</a>
+    				</td>
+    			</tr>
+    		</table>
+    	</div>
+    <!--结算-->
+    <div id="jies">
+    	<div id="jies-box">
+    		<ul>
+    			<li class="li1"><input type="checkbox"/>全选</li>
+    			<li class="li2"><a>删除</a></li>
+    			<li class="li3"><a>清除失效的商品</a></li>
+    			<li class="li4"><a>移至收藏夹</a></li>
+    			<li class="li5">已选<a>1</a>件商品</li>
+    			<li class="li6">总计:<a class="total">￥589</a></li>
+    			<li class="li7"><a></a></li>
+    		</ul>
+    	</div>
+    </div>
+    
+    </div>
+    
+   
+    
+    
+    
+    
+    
+    
+    <div id="coll">
+    	<div id="coll-box">
+    		<a></a><span>您暂无收藏商品</span>
+    	</div>
+    </div>
+    <!--版权-->
+    <div id="copy">
+ 		<p id="copy-box">Copyright&copy;2008-2016<a href="#">Xiu.com</a>深证走秀网络科技有限公司 版权所有粤ICP备07502993号</p>
+ 	</div>
+    
+    <!--遮罩层-->
+    <div id="zhez">	
+    </div>
+    <!--点击登录-->
+    <div id="main-box">
+				<div id="login-box">
+					<a class="tabs" href="#">短信登录</a><a class="tabs" href="#">密码登录</a>
+					<form method="get" action="#" id="for-box">
+						<ul>
+							<li><input class="user" placeholder="手机号码" type="text" value=""/></li>
+							<li><input class="passw" placeholder="短信验证码" type="text" value=""/><button class="btn">获取验证码</button></li>
+							<li class="remb-box"><input class="remb" type="checkbox" name="ral"/>两周内自动登录 <a class="find" href="#">找回密码</a></li>
+						    <li><a href="#"><input class="btn-dl" type="button" value="登    录"/></a></li>
+						</ul>	
+					</form>
+					<!--合作登录-->
+					<div id="login-box-x">
+						<dl>
+							<dt>
+								<span>合作账号登录</span>
+							</dt>
+							<dd class="qq"><a href="#"></a></dd>
+							<dd class="wx"><a href="#"></a></dd>
+							<dd class="wb"><a href="#"></a></dd>
+							<dd class="zf"><a href="#"></a></dd>
+							<dd class="cf"><a href="#"></a></dd>
+						</dl>
+					</div>
+					
+					<!--微信扫描-->
+						<a href="#" class="slo"></a>
+						<a href="#" class="t-img"></a>	
+					
+				</div>
+			</div>
+    
+       
+          
+    
+   
+    </div>
+	</body>
+</html>

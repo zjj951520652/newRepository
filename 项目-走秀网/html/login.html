@@ -2,8 +2,111 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<title></title>
+		<title>login</title>
+		<link rel="stylesheet" href="../css/login.css" />
+		<script type="text/javascript" src="../js/jquery-1.12.4.js" ></script>
+		<script type="text/javascript" src="../js/login.js" ></script>
+		<script type="text/javascript" src="../js/jquery.cookie.js" ></script>
 	</head>
 	<body>
+		<div id="container">
+		<div id="top">
+			<div id="top-box">
+				<img src="../img/logo_mini.png" />
+			</div>
+		</div>	
+		
+		<div id="main">
+			<!--填写表单-->
+			<div id="main-box">
+				<div id="login-box">
+					<!--短信登录-->
+					
+						<a class="tabs" id="tab-1" href="#">短信登录</a><a id="tab-2" class="tabs" href="#">密码登录</a>
+					<div class="mess-1">
+					<form method="get" action="#" id="for-box">
+						<ul>
+							<li><input class="user1" placeholder="手机号码" type="text" value=""/></li>
+							<li><input class="passw" placeholder="短信验证码" type="password" value=""/><button class="btn">获取验证码</button></li>
+							<li class="remb-box"><input class="remb" type="checkbox" name="ral"/>两周内自动登录 <a class="find" href="#">找回密码</a></li>
+						    <li><a class="login1" href="javascript:;">登    录</a></li>
+						</ul>	
+					</form>
+					<!--合作登录-->
+					<div id="login-box-x">
+						<dl>
+							<dt>
+								<span>合作账号登录</span>
+							</dt>
+							<dd class="qq"><a href="#"></a></dd>
+							<dd class="wx"><a href="#"></a></dd>
+							<dd class="wb"><a href="#"></a></dd>
+							<dd class="zf"><a href="#"></a></dd>
+							<dd class="cf"><a href="#"></a></dd>
+						</dl>
+					</div>
+					
+					<!--微信扫描-->
+						<a href="#" class="slo"></a>
+						<a href="#" class="t-img"></a>
+					</div>
+					
+					<!--密码登录-->
+					<div class="mess-2">
+					<form method="get" action="#" id="for-box">
+						<ul>
+							<li><input class="user" placeholder="手机号码" type="text" value=""/></li>
+							<li><input class="passw2" placeholder="密码" type="password" value=""/></li>
+							<li class="remb-box"><input class="remb" type="checkbox" name="ral"/>两周内自动登录 <a class="find" href="#">找回密码</a><a href="javascript:;" class="sign">注册账号|</a></li>
+						    <li><a class="login2" href="javascript:;"> 登    录</a></li>
+						</ul>	
+					</form>
+					<!--合作登录-->
+					<div id="login-box-x">
+						<dl>
+							<dt>
+								<span>合作账号登录</span>
+							</dt>
+							<dd class="qq"><a href="#"></a></dd>
+							<dd class="wx"><a href="#"></a></dd>
+							<dd class="wb"><a href="#"></a></dd>
+							<dd class="zf"><a href="#"></a></dd>
+							<dd class="cf"><a href="#"></a></dd>
+						</dl>
+					</div>
+					
+					<!--微信扫描-->
+						<a href="#" class="slo"></a>
+						<a href="#" class="t-img"></a>
+						
+						
+					</div>
+					
+				</div>
+				<!--微信扫描登录-->	
+				
+				<div id="mess-3">
+					<h2>手机扫码登录</h2>
+					<img src="../img/2016-09-10_193223.png" />
+					<p>打开走秀APP，扫一扫登录</p>
+					<a href="#" class="pc"></a>
+					<a href="#" class="img-pc"></a>
+				</div>	
+				
+			</div>
+		</div>	
+		
+		
+		<!--foot-->
+		<div id="f-list">
+ 		<div id="f-list-box">
+ 		   <a>关于走秀</a>|<a>About us</a>|<a>媒体报道</a>|<a>品牌招商</a>|<a>加入走秀</a>|<a>网站地图</a>|<a>联系我们</a>|<a>品牌大全</a>|<a>邮件订阅</a>|<a>品牌专题</a>|<a>WAP站点</a>
+ 		</div>
+ 	</div>
+		<!--版权-->
+ 	<div id="copy">
+ 		<p id="copy-box">Copyright&copy;2008-2016<a href="#">Xiu.com</a>深证走秀网络科技有限公司 版权所有粤ICP备07502993号</p>
+ 	</div>			
+		</div>
 	</body>
 </html>

@@ -1,0 +1,353 @@
+/*banner*/
+#banner{
+	padding-top:10px;
+	width:100%;
+	height:60px;
+	margin-top:2px;
+}
+#banner-box{
+	width:1000px;
+	height:60px;
+	margin:0 auto;
+}
+/*商品总计*/
+#goods-num{
+	padding-top:4px;
+	width:100%;
+	height:25px;
+	
+}
+#goods-num2{
+	width:1000px;
+	height:25px;
+	margin: 0 auto;
+}
+
+span{
+	font-size: 12px;
+}
+.position{
+	padding-left:10px;
+}
+#goods-num2 .all{
+	font-size: 12px;
+	padding-left:20px;
+	color:#0597d0;	
+}
+.nam{
+	padding-left:20px;
+}
+.zong{
+	padding-left:650px;
+}
+.colr{
+	color:#F78407;
+	font-size:14px;
+}
+
+/*相关搜索*/
+#goods-num-x{
+	width:100%;
+	height:32px;
+}
+#goods-num2-x{
+	width:998px;
+	height:30px;
+	margin: 0 auto;
+	border:1px solid #E5E4E4;
+}
+#goods-num2-x .all{
+	font-size: 12px;
+	padding-left:20px;
+	color:#0597d0;	
+}
+
+/*分类*/
+#lei{
+	width:100%;
+	height:45px;
+	margin-top:5px;
+}
+#lei-box{
+	width:996px;
+	height:41px;
+	margin:0 auto;
+	border:2px solid #AFAFAF;
+	line-height:41px;
+}
+.fenl{
+	padding-left:10px;
+	font-size: 12px;
+}
+.pinm{
+	font-size:12px;
+	padding-left:20px;
+}
+/*goods-box*/
+#goods{
+	width:100%;
+	height:3406px;
+}
+#goods-box{
+	width:1000px;
+	height:3406px;
+	margin:0 auto;
+	
+}
+
+/*列表头部信息*/
+#goods-l-head{
+	width:100%;
+	height:40px;
+	padding-top:10px;	
+}
+#g-l-h-box{
+	width:996px;
+	height:32px;
+	margin:0 auto;
+	padding-top:6px;
+	border:2px solid #d7d7d7;
+	border-top:2px solid #ff6602;
+}
+#g-l-h-box ul{
+	float:left;
+}
+
+#g-l-h-box ul li{
+	float:left;
+}
+
+.pice{
+	padding-left:10px;
+}
+.pice li{
+	width:57px;
+	height:20px;
+	text-align: center;
+	line-height: 20px;
+	border:1px solid #a3a3a3;
+}
+.pice li a{
+	font-size: 12px;
+}
+.pice .no-b{
+	border-right:0;
+}
+.pice .b-b{
+	padding:0 5px;
+}
+.send-t{
+	padding-left:28px;
+	font-size: 12px;
+}
+.send-t input{
+	vertical-align: middle;
+}
+
+.page{
+	padding-left:340px;
+}
+.page a{
+	font-size: 12px;
+}
+.page .page-2{
+	padding-left:20px;
+	padding-right:10px;
+}
+
+/*商品列表信息*/
+#good-l-box{
+	width:1000px;
+	height:3300px;
+	
+	margin-top:20px;
+}
+.good-num{
+	width:242px;
+	height:396px;
+	/*改变匡滑过变色#e7e7e7*/
+	border:2px solid #fff;
+	margin:2px;
+	float:left;
+	margin-bottom:10px;
+	position:relative;
+}
+.good-num dt{
+	width:240px;
+	height:315px;
+	padding-left:6px;
+}
+.good-num .size{
+	/*滑过显示*/
+	display: none;
+	width:160px;
+	height:150px;
+	padding-left:10px;
+	padding-right:50px;
+	background:rgba(255,255,255,0.66);
+	position: absolute;
+	left:10px;
+	bottom:72px;
+}
+.good-num .size p{
+	font-size: 14px;
+	color:#959595;
+}
+.good-num .size span{
+	display:block;
+	width:30px;
+	height:30px;
+	color:#959595;
+	font-size: 14px;
+	border:1px solid #D7D7D7;
+	margin:3px;
+	float:left;
+	text-align: center;
+	line-height: 30px;
+	background: #fff;
+}
+
+
+
+
+
+.good-num dd{
+	padding-top:10px;
+	width:234px;
+	height:71px;
+	
+	padding-left:6px;
+	padding-right:6px;
+}
+.good-num dd p{
+	font-size:14px;
+	color:#4b4b40;
+}
+.good-num dd a{
+	font-size: 14px;
+	color:#4b4b40;
+}
+.good-num .h-color{
+	font-size:14px;
+	color:#ff0000;
+}
+.good-num .j-ge{
+	font-size:16px;
+	color:#d80c18;
+}
+.good-num .y-jia{
+	font-size: 12px;
+	color: #a2a2a2;
+	padding-left:50px;
+	text-decoration: line-through;
+}
+#page-t{
+	width:600px;
+	height:27.5px;
+	padding-top:2.5px;
+	padding-left:400px;
+}
+#page-t a{
+	color: #000000;
+	font-size:12px;
+	border:1px solid #AFAFAF;
+	padding:3px 8px;
+	margin-right:5px;
+}
+#page-t a:hover{
+	color:#F78407;
+}
+/*搜索*/
+#sear{
+	width:100%;
+	height:39px;
+	padding-top:50px;
+}
+
+#sear-box{
+	width:527px;
+	height:37px;
+	background:red;
+	margin:0 auto;
+	border:1px solid #FF6602;
+}
+#sear-box input{
+	width:447px;
+	height:35px;
+	border:0;
+	outline: 0;
+	float: left;
+	font-size: 16px;
+}
+#sear-box button{
+	width:80px;
+	height:37px;
+	border:0;
+	outline: 0;
+	background:#FF6602;
+	color:#fff;
+}
+
+/*猜你喜欢*/
+#like{
+	width:100%;
+	height:415px;
+	padding-top:40px;
+	
+}
+#like p{
+	font-size: 14px;
+	color: #333333;
+	padding-left:132px;
+}
+#like-box{
+	width:1000px;
+	height:380px;
+	border:1px solid #D7D7D7;
+	margin:0 auto;
+}
+
+#like-box li{
+	width:180px;
+	height:380px;
+	float:left;
+	margin:0 10px;
+}
+#like-box dd p{
+	font-size:14px;
+	color:#666666;
+}
+#like-box a{
+	font-size: 13px;
+	color:#666666;
+}
+#like-box a:hover{
+	color:#FF8400;
+	text-decoration:underline;
+}
+#like-box span{
+	display: block;
+	font-size: 14px;
+	color:#d80c18;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
