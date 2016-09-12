@@ -84,7 +84,7 @@ $(function(){
 		if(num==0){
 			$.removeCookie("skirt",{path:"/"});
 		}
-		
+		$(".gd-num").html(num);
 	})
 })
 $(function(){
